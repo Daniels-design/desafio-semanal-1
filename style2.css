@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+    background-image: url(https://prefeitura.pbh.gov.br/sites/default/files/styles/slideshow/public/estrutura-de-governo/ponyo%20%281%29.jpg?itok=R61xd1lk);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+div {
+    text-align: center;
+    padding-top: 2%;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin-top: 90px;
+    color: rgb(0, 0, 0);
+    font-size: 3.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+main > a > p{
+    text-decoration: none;
+}
+
+.emoji {
+    font-size: 60px;
+}
+
+.voltar {
+    margin: auto;
+    color: black;
+}

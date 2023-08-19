@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background-image: url(https://trecobox.com.br/wp-content/uploads/2022/09/Jujutsu-Kaisen.jpg.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+}
+p {
+    text-align: center;
+    color: whitesmoke;
+}
+div {
+    text-align: center;
+}
+iframe {
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
