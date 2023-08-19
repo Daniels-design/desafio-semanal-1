@@ -10,6 +10,10 @@
     src: url(cream_cake/Cream\ Cake.otf) format(opentype);
 }
 
+margin {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     padding: 28px 28px 0px 28px;
@@ -48,6 +52,7 @@ h2 {
     margin: 50px 0px 20px 0px;
     padding-left: 45px;
     font-size: 2em;
+    text-align: left;
 }
 mark {
     background-color: lightblue;
@@ -114,33 +119,37 @@ footer > ul >li > a {
 .end {
     text-align: left;
 }
-@media screen and (max-width: 870px) {
-    
+
+
+
+
+@media screen and (max-width: 670px) {
     * {
         margin: 0;
         padding: 0;
     }
-
     body {
         background-attachment: fixed;
     }
 
     header {
-        max-width: 100%;
-        padding: 28px 28px 0px 0px;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        background-position: bottom left;
     }
     header > h1 {
         margin-left: 16px;
         padding: 5px;
         width: 241px;
         border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: lightblue;
     }
     nav {
         font-size: 12px;
-        max-width: 360px;
+        max-width: 389px;
         box-shadow: none;
-}
-    }
+        }
     header > nav > a {
         font-size: 1.5em;
     }
@@ -155,27 +164,30 @@ footer > ul >li > a {
         border-radius: 5px 5px 0px 0px;
     }
     footer {
-        width: 100%;
+        max-width: 100%;
+        padding: 10px 0px 10px 0px;
     }
     .leitura {
-        width: 318px;
-        padding-left: 5px;
-        text-indent: 5px;
-        margin-bottom: 20px;
+        width: 276px;
+        padding-left: 21px;
+        text-indent: 10px;
+        margin:10px 20px 23px -10px;
+        text-align: justify;
     }
     .leitura2 {
         font-size: 1.4em;
-        width: 288px;
+        width: 264px;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.667);
         color: white;
         padding-left: 9px;
+        margin-top: 133px;
     }
     .leitura3 {
         position: absolute;
-        top: 146%;
-        left: 8%;
-        width: 255px;
+        top: 128%;
+        left: 5%;
+        width: 250px;
         font-size: 1.8em;
         color: white;
         background-color: rgba(0, 0, 0, 0.526);
@@ -187,7 +199,11 @@ footer > ul >li > a {
         padding-left: 10px;
         background-attachment: fixed;
         margin-bottom: 38px;
+        width: 97%;
         }
     .gato2 {
-        margin-left: 2px;
+        width: 97%;
+        height: 420px;
+        margin:0px 2px 10px 0px;
     }
+}
