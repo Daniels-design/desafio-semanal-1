@@ -1,5 +1,4 @@
-# desafio-semanal-1
-Desafio semanal. 
+# desafio-semanal-1 
 Pequeno blog de leitura, apenas para testar alguns conhecimentos. 
 Os links não estão funcionais, pois apenas criei o index.html 
 
